@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CampNest helps students find comfortable accommodation in Freetown.">
+    <title>Home | CampNest</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">Camp<span>Nest</span></a>
+        <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="navigation">
+            <a class="active" href="index.html">Home</a>
+            <a href="accommodation.html">Find Accommodation</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a class="login-link" href="contact.html">Login</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">WELCOME TO CAMPNEST</p>
+                <h1>Let’s us Find You a Home</h1>
+                <p>Find a comfortable place to stay while you focus on your education.</p>
+                <a class="button button-light" href="accommodation.html">Explore Accommodation</a>
+            </div>
+            <div class="hero-photo" role="img" aria-label="Comfortable student accommodation"></div>
+        </section>
+
+        <section class="search-section">
+            <form class="search-bar" action="accommodation.html">
+                <label for="university">University</label>
+                <select id="university" name="university">
+                    <option value="">Select university</option>
+                    <option>Limkokwing University</option>
+                    <option>Fourah Bay College</option>
+                    <option>IPAM</option>
+                    <option>Njala University</option>
+                </select>
+                <label class="keyword-label" for="keyword">Search</label>
+                <input id="keyword" name="search" type="search" placeholder="Search for properties or keyword">
+                <button class="button" type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="section container">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">FIND A PLACE TO STAY</p>
+                    <h2>Popular Accommodations</h2>
+                    <p>Your home, at our place.</p>
+                </div>
+                <div class="slider-arrows" aria-label="Accommodation links">
+                    <a href="accommodation.html" aria-label="Previous listings">‹</a>
+                    <a href="accommodation-more.html" aria-label="More listings">›</a>
+                </div>
+            </div>
+
+            <div class="property-grid">
+                <article class="property-card">
+                    <img src="image/jointApartment.jpg" alt="Interior of a shared apartment">
+                    <div class="property-info">
+                        <h3>Joint Apartment</h3>
+                        <p>A joint apartment, one room self-contain, per section.</p>
+                        <p class="location">Location: 15C Black Street, Freetown</p>
+                        <strong class="price">NLe 1,000 <small>per section</small></strong>
+                        <a class="text-link" href="accommodation.html">View accommodation</a>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="image/Golden.jpg" alt="Bright modern room">
+                    <div class="property-info">
+                        <h3>Golden</h3>
+                        <p>One room, self-contain and a study space.</p>
+                        <p class="location">Location: 2R Lumley Street, Freetown</p>
+                        <strong class="price">NLe 1,500</strong>
+                        <a class="text-link" href="accommodation.html">View accommodation</a>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="image/Golden+.jpg" alt="Apartment living space">
+                    <div class="property-info">
+                        <h3>Golden +</h3>
+                        <p>One room double space self-contain, with relaxation and study space.</p>
+                        <p class="location">Location: 10 Lim Street, Freetown</p>
+                        <strong class="price">NLe 2,000</strong>
+                        <a class="text-link" href="accommodation.html">View accommodation</a>
+                    </div>
+                </article>
+
+                <article class="property-card">
+                    <img src="image/S Rank.jpg" alt="Clean modern accommodation">
+                    <div class="property-info">
+                        <h3>S Rank</h3>
+                        <p>Living room, kitchen space and self-contain.</p>
+                        <p class="location">Location: 105C White Street, Freetown</p>
+                        <strong class="price">NLe 3,000</strong>
+                        <a class="text-link" href="accommodation-more.html">View accommodation</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="map-section container">
+            <h2>Find on Map</h2>
+            <p>Explore accommodation locations around Freetown.</p>
+            <div class="map-placeholder">
+                <span>Map location preview</span>
+                <a class="button" href="accommodation.html">Browse locations</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+
+        <!-- Student support links -->
+
+        <div class="footer-column">
+
+            <h3>Student Support</h3>
+
+            <a href="contact.html">FAQs</a>
+            <a href="contact.html">Help Center</a>
+            <a href="contact.html">Safety Information</a>
+            <a href="contact.html">Terms &amp; Conditions</a>
+            <a href="contact.html">Privacy Policy</a>
+
+        </div>
+
+
+
+        <!-- Contact information -->
+
+        <div class="footer-column footer-contact">
+
+            <h3>Contact</h3>
+
+            <p>
+                <b>Phone</b><br>
+                <a href="https://wa.me/23272114222">+232 72 114 222<alt>Click to open WhatsApp</alt></a>
+            </p>
+
+            <p>
+                <b>Email</b><br>
+                <a href="mailto:denisoncombey299@gmail.com">
+                    denisoncombey299@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <b>Address</b><br>
+                16a Die Lane, Freetown
+            </p>
+
+        </div>
+
+
+        <!-- Copyright -->
+
+        <p class="copyright">
+            © 2026 CampNest. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
